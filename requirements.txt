@@ -1,0 +1,26 @@
+# CAD Educational Assessment System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+streamlit
+numpy
+pandas
+trimesh
+scikit-learn
+plotly
+
+# Mesh processing
+pymeshlab
+cascadio
+
+# File handling
+Pillow
+openpyxl
+
+# Additional utilities
+python-dateutil
+pytz
+
+# Optional: For better performance
+scipy
+networkx
