@@ -443,7 +443,7 @@ def main():
         # Teacher model upload
         st.subheader("Teacher Reference Model")
         teacher_file = st.file_uploader("Upload teacher's reference CAD model",
-                                       type=['obj', 'stl', 'ply', 'off'],
+                                       type=['obj', 'stl', 'ply', 'off','STEP'],
                                        key="teacher")
         
         if teacher_file:
@@ -460,7 +460,7 @@ def main():
         # Student models upload
         st.subheader("Student Submissions")
         student_files = st.file_uploader("Upload student CAD models",
-                                        type=['obj', 'stl', 'ply', 'off'],
+                                        type=['obj', 'stl', 'ply', 'off','STEP'],
                                         accept_multiple_files=True,
                                         key="students")
         
