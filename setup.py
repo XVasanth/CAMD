@@ -159,6 +159,7 @@ reports/*.zip
 *.stp
 *.iges
 *.igs
+*.STEP
 
 # OS
 .DS_Store
